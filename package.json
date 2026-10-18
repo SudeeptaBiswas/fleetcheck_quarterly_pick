@@ -1,0 +1,19 @@
+{
+  "name": "fleetcheck-quarterly-pick",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quarterly random vehicle pick: fair, reproducible, run once per company and quarter.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.3"
+  }
+}
